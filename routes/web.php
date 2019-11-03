@@ -16,4 +16,4 @@ use Illuminate\Http\Request;
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'IndexController@index')->name('home');
