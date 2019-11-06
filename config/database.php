@@ -50,7 +50,7 @@ return [
             'port' => '3306',
             'database' => 'laravel',
             'username' => 'root',
-            'password' => '130435',
+            'password' => 'asdASD123456;',
             //'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
