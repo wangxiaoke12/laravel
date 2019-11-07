@@ -1,0 +1,159 @@
+.hd_banner{
+	width: 7.5rem;
+	height: 3rem;
+}
+.hd_banner img{
+	height: 3rem;
+}
+.hd_activity{
+	padding: 0 0.24rem;
+}
+.hd_type{
+	width: 100%;
+	line-height: 0.3rem;
+	text-align: center;
+	padding: 0.4rem 0 0.1rem 0;
+}
+.hd_type img{
+	width: 4.05rem;
+	height: 0.3rem;
+}
+.activity-card{
+	margin-top: 0.3rem;
+	background: #FFFFFF;
+	padding-bottom: 0.3rem;
+	border-radius: 0.05rem;
+	box-shadow: 0px 3px 3px 3px #e0e0e0;
+}
+.hd_img{
+	border-radius: 0.05rem 0.05rem 0 0;
+	height: 3.94rem;
+}
+.hd_tit{
+	font-size: 0.32rem;
+	margin-top: 0.3rem;
+	padding: 0 0.2rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hd_mage{
+	margin-top: 0.3rem;
+	padding: 0 0.2rem;
+	position: relative;
+}
+.mage_cont{
+	font-size: 0.28rem;
+	line-height: 0.32rem;
+}
+.hd_time{
+	line-height: 0.28rem;
+}
+.hd_time img{
+	width: 0.28rem;
+	height: 0.28rem;
+}
+.hd_time span{
+	font-size: 0.28rem;
+	margin-left: 0.1rem;
+}
+.hd_post{
+	margin-top: 0.2rem;
+}
+.hd_post img{
+	width: 0.22rem;
+	height: 0.27rem;
+	margin-left: 0.03rem;
+	margin-right: 0.13rem;
+}
+.hd_post span{
+	display: block;
+	font-size: 0.28rem;
+	margin-right: 1.9rem;
+}
+.hd_mage .new_btn{
+	display: block;
+	margin-top: 0.08rem;
+	background: #007BFF;
+	text-align: center;
+	border: none;
+	width: 1.87rem;
+	line-height: 0.64rem;
+	color: #FFFFFF;
+	font-size: 0.3rem;
+	border-radius: 0.05rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0;
+}
+.hd_mage .old_btn{
+	display: block;
+	margin-top: 0.08rem;
+	background: #cccccc;
+	text-align: center;
+	border: none;
+	width: 1.87rem;
+	line-height: 0.64rem;
+	color: #FFFFFF;
+	font-size: 0.3rem;
+	border-radius: 0.05rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0;
+}
+/*活动详情*/
+.hdetail_mage{
+	padding:0 0.15rem;
+	background: #FFFFFF;
+}
+.hdetail_tit{
+	font-size: 0.16rem;
+	line-height: 0.39rem;
+	font-weight: bold;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.hdetail_time,.hdetail_place{
+	width: 100%;
+	font-size: 0.14rem;
+	padding-bottom: 0.1rem;
+	margin-top: 0.1rem;
+	line-height: 0.14rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.hdetail_place{
+	border: none;
+}
+.hdetail_time img{
+	width: 0.15rem;
+	height: 0.15rem;
+	margin-right: 0.1rem;
+}
+.hdetail_place img{
+	width: 0.14rem;
+	height: 0.15rem;
+	margin-right: 0.1rem;
+}
+.hd_massage{
+	background: #FFFFFF;
+	margin-top: 0.05rem;
+	padding: 0 0.1rem;
+	padding-bottom: 0.2rem;
+}
+.hd_text{
+	font-size: 0.14rem;
+	text-indent: 0.28rem;
+	padding: 0.1rem 0;
+}
+.hd_massage img{
+	margin-top: 0.1rem;
+}
+@media only screen and (min-width: 750px){
+	.hd_banner{
+	width: 100%;
+	height: 100%;
+	}
+	.hd_banner img{
+		height: 100%;
+	}
+}

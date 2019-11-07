@@ -1,0 +1,28 @@
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {position: relative;top: 1px;display: inline-block;font-family: 'Glyphicons Halflings';font-style: normal;font-weight: normal;line-height: 1;padding-left: 5px;}
+a.asc:after {content: /*"\e113"*/ "\e151";}
+a.desc:after {content: /*"\e114"*/ "\e152";}
+.sort-numerical a.asc:after {content: "\e153";}
+.sort-numerical a.desc:after {content: "\e154";}
+.sort-ordinal a.asc:after {content: "\e155";}
+.sort-ordinal a.desc:after {content: "\e156";}
+
+/*复选框居中*/
+.content-center{text-align: center;}
+#pages .pagination{margin:0px;}
+.summary{float:left;}
+
+/*分页*/
+.gopage_box{float: left; margin-top: -4px; margin-left: 10px; font-size: 14px;}
+.gopage{height: 26px;line-height: 26px;border: none;background: 0 0;color: #999;}
+.gopage input {height: 26px;line-height: 26px;width: 50px;padding: 0 3px;margin:0 5px;text-align: center;border-radius: 4px;}
+.gopage button {border: solid 1px #6fb3e0;padding: 0px;margin:0 5px;height: 25px;width: 46px;line-height: 25px;border-radius: 4px;background-color: #5bc0de;color: #fff;}
+.set_pagesize select{padding: 3px;border-radius: 4px;cursor: pointer;height: 28px;margin:0 5px;}
+.bold{font-weight: bold;}
+td a:hover{text-decoration: none;color: #09baef;}
+.layui-table-hover{
+	background-color: #d9edf7!important;
+}
+.text_center{text-align: center;}
+.text_right{text-align: right;}

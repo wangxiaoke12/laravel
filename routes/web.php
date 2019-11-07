@@ -15,5 +15,10 @@ use Illuminate\Http\Request;
 //Route::get('/{id?}', 'IndexController@index')->where(['id'=>'[0-9]']);
 
 Auth::routes();
+Route::middleware(['auth'])->group(function(){
+	Route::get('/admin', 'Admin\IndexController@index');
+});
+Route::middleware(['webauth'])->group(function(){
+	Route::get('/', 'Web\IndexController@index');
+});
 
-Route::get('/', 'Admin\IndexController@index')->name('home');

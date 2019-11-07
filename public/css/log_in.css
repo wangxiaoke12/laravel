@@ -1,0 +1,465 @@
+.center_log{
+	font-size: 0.38rem;
+	line-height: 0.88rem;
+	margin: 0 auto;
+}
+.content{
+	background: rgba(255,255,255,.9);
+
+}
+.login_bg{
+	height: 100%;
+	background: url(../img/log_ph.jpg) no-repeat;
+	background-size: cover;
+}
+
+/*登陆*/
+.wrap{
+	margin: 0 auto;
+	width: 5.8rem;
+}
+.log_wrap{
+	padding-top: 0.3rem;
+}
+.log_ipt{
+	margin-top: 0.2rem;
+}
+.input-container{
+	position: relative;
+    width: 100%;
+    line-height: 0.26rem;
+    border-bottom: 1px solid #c2c2c2;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.input-container img{
+	margin-top: 0.3rem;
+}
+.txt-input{
+	font-size: 0.3rem;
+    height: 0.3rem;
+    padding: 0.3rem 0;
+    border: none;
+	width: 5.1rem;
+	background: none;
+	border: none;
+	outline: none;
+	margin-left: 0.3rem;
+	color: #818181;
+}
+.phone{
+	width: 0.21rem;
+	height: 0.30rem;
+}
+.lock{
+	width: 0.26rem;
+	height: 0.30rem;
+}
+.label-checkbox {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 99;
+}
+.eye_hide,.eye_show{
+   	height: 0.3rem;
+    width: 0.48rem;
+}
+.eye_show{
+	display: none;
+}
+.code_hide{
+	display: none;
+}
+.code_show{
+	display: block;
+}
+.button{
+	margin-top: 1rem;
+	width: 100%;
+	overflow: hidden;
+}
+.reg_button{
+	margin-top: 0.6rem;
+	width: 100%;
+	overflow: hidden;
+}
+.btn-register{
+	font-size: 0.32rem;
+	width: 100%;
+    line-height: 0.8rem;
+    background-color: #30a5dd;
+    color: #FFFFFF;
+    border-radius: 0.05rem;
+    border: 0;
+}
+.wap_q{
+    margin-top: 0.3rem;
+}
+.wap_q img{
+	width: 0.28rem;
+	height: 0.28rem;
+	margin-right: 0.1rem;
+}
+.wap_q_l{
+	float: left;
+	height:0.28rem;
+	line-height: 0.28rem;
+}
+.wap_q .wap_q_l a{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	flex: 1;
+	display: block;
+	/*padding:5px;*/
+	color: #818181;
+}
+.wap_q_r{
+	float: right;
+}
+.wap_q .wap_q_r a{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	flex: 1;
+	color: #818181;
+}
+.other_loge{
+	margin-top: 0.8rem;
+	text-align: center;
+}
+.other_title{
+    display: block;     /*设置为块级元素会独占一行形成上下居中的效果*/
+    font-size: 0.32rem;
+    position: relative;   /*定位横线（当横线的父元素）*/
+}
+.other_title:before, .other_title:after {
+    content: '';                 /*CSS伪类用法*/
+    position: absolute;         /*定位背景横线的位置*/
+    top: 52%;
+    background: #cccccc;       /*宽和高做出来的背景横线*/
+    width: 1.6rem;
+    height: 1px;
+}
+.other_title:before{
+    left: 0%;        /*调整背景横线的左右距离*/
+}
+.other_title:after {
+    right: 0%;
+}
+/*注册*/
+.validation{
+	width: 0.35rem;
+	height: 0.3rem;
+}
+.username{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: 0.3rem;
+}
+.log_post{
+	width: 0.26rem;
+	height: 0.3rem;
+}
+.txt-validation{
+	font-size: 0.3rem;
+    line-height: 0.3rem;
+    height: 0.3rem;
+    padding: 0.3rem 0;
+    border: none;
+	width: 3rem;
+	background: none;
+	border: none;
+	outline: none;
+	margin-left: 0.18rem;
+	color: #818181;
+}
+.validation_btn{
+	width: 1.5rem;
+	height: 0.48rem;
+	font-size: 0.26rem;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.05rem;
+	background: #30a5dd;
+	margin-top: 0.18rem;
+}
+.header_select{
+	width: 100%;
+	height: 0.88rem;
+	background: #ffffff;
+	color: #555;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.88rem;
+	border-bottom: 1px solid #30a5dd;
+}
+.select_left{
+	font-size: 0.58rem;
+}
+.select-area{
+   	position: relative;
+    overflow: hidden; 
+    padding: 0.3rem 0;
+    
+}
+.select-value{
+	display: inline-block;
+	color: #818181;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.3rem;
+}
+
+.select_list{
+	position: relative;
+}
+.log_triangle{
+	position: absolute;
+	right: 0.12rem;
+	top: 0;
+	margin-top: 0.4rem !important;
+	width: 0.24rem;
+	height: 0.12rem;
+}
+.select_choose{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	background: #f4f4f4;
+	height: 100%;
+	display: none;
+}
+.select_choose label {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #c6c6c6;
+    margin: 0;
+    padding: 0.3rem 0.24rem;
+}
+.post_name{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #818181;
+}
+.post_bg{
+	background: #e5e5e5;
+	color: #30a5dd;
+}
+.post_bg .post_name{
+	color: #30a5dd;
+}
+/*单选框*/
+.icheck-info{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	position: relative;
+}
+.checkbox label{
+	min-height: 0;
+}
+[class*="icheck-"] {
+    padding-left: 0px;
+}
+
+[class*="icheck-"] > label {
+    padding-left: 0.3rem !important;
+	display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+[class*="icheck-"] > input {
+    position: absolute !important;
+    opacity: 0;
+    margin: 0;
+}
+
+[class*="icheck-"] > input + label::before,
+[class*="icheck-"] > input + input[type="hidden"] + label::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 0.24rem;
+        height: 0.24rem;
+        border: 1px solid #D3CFC8;
+        border-radius: 0px;
+        margin-left: -0.3rem;
+        top: -0.01rem;
+    }
+
+[class*="icheck-"] > input:checked + label::after,
+[class*="icheck-"] > input:checked + input[type="hidden"] + label::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: -0.08rem;
+        left: -0.01rem;
+        width: 0.1rem;
+        height: 0.2rem;
+        border: solid 2px #fff;
+        border-left: none;
+        border-top: none;
+        transform: translate(0.08rem, 0.05rem) rotate(45deg);
+        -ms-transform: translate(0.08rem, 0.05rem) rotate(45deg);
+    }
+.icheck-info > input:not(:checked):not(:disabled):hover + label::before,
+.icheck-info > input:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
+    border-color: #30a5dd;
+}
+
+.icheck-info > input:checked + label::before,
+.icheck-info > input:checked + input[type="hidden"] + label::before {
+    background-color: #30a5dd;
+    border-color: #30a5dd;
+}
+@media only screen and  (max-width: 750px) {
+	.login_bg{
+		background: url(../img/log_ph.jpg) no-repeat;
+		background-size: cover;
+	}
+	.warp{
+		margin-top: 44px;
+	}
+	.log_ip{
+		display: none;
+	}
+	.log_ph{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+	.post_name{
+		line-height: 16px;
+	}
+	.radio label .outer{
+		width: 16px;
+		height: 16px;
+	}
+}
+@media only screen and (min-width: 750px) {
+	.login_bg{
+		background: url(../img/log_ip.jpg) no-repeat;
+		background-size: cover;
+	}
+	.radio label input:checked + .outer .inner{
+		margin: 6px;
+	}
+	.warp{
+		margin-top: 44px;
+	}
+	[class*="icheck-"] > input + label::before,
+	[class*="icheck-"] > input + input[type="hidden"] + label::before {
+        top: 0.04rem;
+    }
+}
+/*阅读条款*/
+.wap_q span{
+	font-weight: normal;
+	font-size: 0.24rem;
+}
+.wap_q input{
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+}
+.wap_q a{
+	color: #30a5dd;
+	font-size: 0.24rem;
+}
+
+
+/*服务条款*/
+.terms{
+	padding: 0 0.4rem;
+	color: #3E3E3E;
+}
+.terms_tit{
+	font-size: 0.44rem;
+	line-height: 0.44rem;
+	margin: 0.4rem 0;
+}
+.terms_txt{
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+}
+.terms_remind{
+	text-indent: 0.64rem;
+}
+.terms_list{
+	margin: 0.4rem 0;
+	color: #515151;
+	font-size: 0.3rem;
+}
+.terms_rules{
+	font-size: 0.32rem;
+}
+/*绑定账号*/
+.gr_date {
+    margin: 0.4rem auto 0;
+    text-align: center;
+}
+.gr_date img {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 auto 0.2rem;
+    border-radius: 50%;
+}
+.gr_date p{
+	font-size: 0.36rem;
+	margin-bottom: 0.3rem;
+}
+.pe_list {
+    padding: 0 0.24rem;
+    margin-bottom: 30px;
+}
+.pe_list .swiper-wrapper{
+	height: auto !important;
+}
+.tab {
+    border-bottom: 1px solid #c2c2c2;
+    background: #FFFFFF;
+}
+.tab li {
+    width: 50%;
+    font-size: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+}
+.tab li a {
+    display: inline-block;
+    padding: 0.4rem 0;
+    position: relative;
+    top: 1px;
+}
+.line {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #30a5dd;
+    bottom: 0;
+    left: 0;
+}
+.tab_ul{
+	padding: 0 0.24rem;
+}
+.other_list{
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.other_wx{
+	width: 0.85rem;
+	height: 0.7rem;
+}
+@media only screen and (min-width: 1024px) {
+	[class*="icheck-"] > input + label::before{
+		top: 0.02rem;
+	}
+}

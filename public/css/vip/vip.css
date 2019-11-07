@@ -1,0 +1,57 @@
+.banner_vip{
+	width: 100%;
+	min-width: 1200px;
+	height:360px;
+}
+.banner_vip img{
+	width: 100%;
+	height: 100%;
+}
+.superiority{background: #fff;height: 390px;}
+.title{
+	width: 617px;
+    height: 37px;
+    line-height: 37px;
+    background: url(/images/activity/vip-title.png)no-repeat;
+    margin: 33px auto;
+    font-size: 24px;
+    text-align: center;
+	color: #000;
+}
+.superiority ul{width: 950px;margin: 0 auto;}
+.superiority ul li{width: 230px;height: 290px;float: left;margin-right: 130px;border-radius: 5px;padding-top: 43px;}
+.superiority ul li:nth-child(2){background:linear-gradient(to bottom, #f5586c, #f093fb)}
+.superiority ul li:nth-child(1){background:linear-gradient(to bottom, #0065c9, #6fbcef)}
+.superiority ul li:nth-child(3){margin-right: 0px;background:linear-gradient(to bottom, #fdab80, #f4ce6b) }
+.superiority ul li .superiority-top{height: 88px;width: 230px;text-align: center;margin-bottom: 30px;}
+.superiority ul li .superiority-top img{}
+.superiority ul li .superiority-title{margin-bottom: 15px;height: 26px;width: 230px;text-align: center;color: #fff;font-size: 24px;font-weight: bold;}
+.superiority-bottom{padding: 0 24px;line-height:34px;font-size: 18px;color: #fff;text-align: center;}
+
+.apply{
+	background: #f2f2f2;
+	width: 100%;
+	min-width: 1200px;
+	height: 693px;padding-top: 7px;
+}
+.apply-content{width: 830px;margin: 0px auto;padding-top: 20px;}
+.apply-wait{position: fixed;top: 0;left: 0;background: rgba(0,0,0,0.5);
+	width: 100%;height:100%;font-size: 16px;display: none;}
+.apply-jump{ margin: 0px auto;width: 350px;height: 150px;background: #FFFFFF;text-align: center;margin-top: 20%;border-radius: 5px;padding-top: 20px;}
+.apply-jump p{}
+.apply-jump .jump-close{display: block;margin: 0 auto; margin-top: 50px;color: #FFFFFF;background: #30a5dd;width: 60px;height: 30px;line-height: 30px;border-radius: 5px;cursor: pointer;}
+.vip-input-box{margin-bottom:50px; }
+.vip-input-box span{line-height: 44px;width: 191px;padding-right:40px;text-align: right;display: block; font-size: 18px;color: #595757;float: left;}
+.vip-input-box input{border:#bababa 1px solid;width: 453px;height: 38px;line-height: 38px;padding-left: 20px;font-size: 18px;}
+.upload_button{    cursor: pointer;width:453px;height:250px;line-height: 250px;color:#bababa; background: #fff; border:#bababa 1px solid;    font-weight: 100;font-size: 100px;text-align: center; }
+.apply-content button{width:453px;height: 38px;background: #156bad;line-height: 38px;text-align:center;;color: #fff;font-size: 18px;border:none ;border-radius: 5px;margin-left: 190px;}
+.what{width: 100%;min-width: 1200px;background:#e2e9ff;height: 760px;padding-top: 20px; }
+.what_introduce{width: 942px;margin: 0 auto;color: #7d7d7d;font-size: 18px;height: 90px;}
+.what .content h3{width: 750px;display: block;margin: 30px auto;text-align: center;}
+.what .content ul{width: 750px;margin: 0px auto;padding-top: 40px;    overflow: hidden;}
+.what .content ul li{width: 337px;height: 340px;border-radius: 7px;float: left;padding-top: 57px;}
+.what .content ul li:nth-child(2){background:linear-gradient(to bottom, #d369ff, #2178c9)}
+.what .content ul li:nth-child(1){background:linear-gradient(to bottom, #70bcef, #0066c9);margin-right: 75px;}
+.what .content .what_top{height: 98px;width: 337px;text-align: center;}
+.what .content .what_title{margin-top: 15px;color: #fff;text-align: center;width: 337px;font-size: 22px;line-height: 30px;}
+.what .content .what_bottom{margin-top: 30px;padding: 0 15px;font-size: 18px;color: #fff;text-align: center;}

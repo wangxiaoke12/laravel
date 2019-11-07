@@ -1,0 +1,53 @@
+#publish{
+	background: #f6f6f6;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+#publish .content{
+	width: 860px;
+	margin: 0 auto;
+	/* margin-top: 30px;
+	margin-bottom: 50px; */
+	overflow: inherit;box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+	background: #fff
+}
+.edit_box{position: relative;padding-bottom: 25px;}
+.edit_box .title{position: relative;}
+.edit_box .title a{
+	position: absolute;
+	right:20px;
+	font-size: 1.4rem;
+	z-index: 6;
+	color: #BEBEBE;
+	transition: color .3s cubic-bezier(.25,.1,.25,1);
+	line-height: 82px;
+}
+.edit_box .title input{
+	border: none;
+    height: 42px;
+    padding: 20px 116px 20px 20px!important;
+    width: 724px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    outline:none;
+}
+.edit_box .title input:active{ outline: none;border:0; }
+/*编辑器 强制*/
+.w-e-toolbar{padding:20px !important;background: #fff !important;border-left: 0 !important;border-right: 0 !important;}
+.w-e-toolbar .w-e-menu{margin: 0 6px;}
+.w-e-text-container{background: #fff;overflow:auto;border: 0 !important}
+.w-e-text{overflow:auto !important}
+.w-e-toolbar .w-e-menu i{color: #666666}
+.w-e-text-container .w-e-panel-container .w-e-emoticon-container .w-e-item img{max-width: 30px; }
+.w-e-text{padding:20px !important;}
+/**/
+
+.classify{height: 30px;padding-left: 20px;padding-right: 20px;background: #fcfcfc;padding-top: 20px;padding-bottom: 20px;}
+.classify span{width: 52px;float: left;display: block;height: 30px;line-height: 30px;}
+.classify select{width: 340px;height: 30px;padding-left: 10px}
+/**/
+.edit_box_picture{margin-left: 20px;margin-right: 20px;height: 220px;background: #dedede;}
+.notice{padding:15px;width:830px !important;}
+.notice .title{font-size: 18px;color: #595757;margin-bottom: 20px;}
+.notice .notice_n p{    line-height: 28px;color: #999;font-size: 0.14rem}

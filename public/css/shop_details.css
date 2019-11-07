@@ -1,0 +1,226 @@
+.head_pc{
+	border-bottom: 1px solid #30a5dd;
+}
+.sec_details{
+	background: #ffffff;
+}
+.scard_top{
+	height: 4.2rem;
+}
+.scard_cont{
+	padding: 0.2rem;
+	position: relative;
+}
+.scard_tit{
+	width: 5rem;
+	font-size: 0.36rem;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.scard_tit span{
+	font-size: 0.3rem;
+	color: #595757;
+}
+.scard_price{
+	color: #7d7d7d;
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	margin-top: 0.2rem;
+}
+.scard_price img{
+	width: 0.2rem;
+	height: 0.28rem;
+	margin-left: 0.2rem;
+}
+.scard_price span{
+	display: inline-block;
+	color: #fe0c0c;
+	margin: 0 0.1rem;
+}
+.scard_num{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	color: #7d7d7d;
+	margin-top: 0.2rem;
+}
+.scard_num span{
+	margin-left: 0.1rem;
+}
+.scard_cont .scard_pdu{
+	display: block;
+	padding: 0 0.1rem;
+	height: 0.46rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: #ffffff;
+	background: #ff9600;
+	border-radius: 3px;
+	position: absolute;
+	right: 0.24rem;
+	top: 0.3rem;
+}
+.sec_mage{
+	margin-top: 0.2rem;
+	padding: 0.3rem 0.2rem;
+	background: #ffffff;
+}
+.sma_tit{
+	font-size: 0.36rem;
+}
+.sma_txt{
+	font-size: 0.30rem;
+	margin-top: 0.3rem;
+}
+.sma_txt span{
+	color: #fe0c0c;
+}
+.foot_list li{
+	width: 50% !important;
+}
+.shopf_l{
+	text-align: left;
+	line-height: 0.98rem;
+}
+.shopf_l span{
+		font-size: 0.3rem;
+	}
+	.shop_buy{
+		margin-left: 0.1rem;
+	}
+.shopf_r{
+	position: relative;
+}
+.sf_exc{
+	width: 2.2rem;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	background: #30a5dd;
+	border: none;
+	color: #ffffff;
+	position: absolute;
+	right: 0;
+}
+.shop_success,.shop_file{
+	display: none;
+}
+.shop_jump{
+	position: fixed;
+	top: 50%;
+	left: 0.85rem;
+	padding: 0 2px;
+	border: 1px solid #8a8989;
+	border-radius: 5px;
+	min-width: 5.8rem;
+	margin: 0 auto;
+	margin-top: -1.05rem;
+	background: #ffffff;
+}
+.sj_tit{
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	padding: 0.1rem 0.18rem;
+	border-bottom: 1px solid #dddddd;
+}
+.sj_cont{
+	margin-top: 0.3rem;
+	margin-bottom: 0.46rem;
+}
+.sj_cont img{
+	width: 0.83rem;
+	height: 0.83rem;
+	margin-left: 0.35rem;
+	margin-right: 0.16rem;
+}
+.sj_massage span{
+	font-size: 0.24rem;
+	display: block;
+	line-height: 0.41rem;
+}
+.sj_suc{
+	color: #30a5dd;
+}
+.sj_file{
+	color: #fe0c0c;
+}
+.sj_mage{
+	color: #999999;
+}
+
+/*填写地址*/
+.spa{
+	position: relative;
+}
+.spa p{
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	color: #595757;
+}
+.spa span{
+	color: #ff0000;
+	position: absolute;
+	right: -0.2rem;
+	top: 0.44rem;
+}
+.spa_cont{
+	width: 5.6rem;
+	margin: 0 auto;
+}
+.spa_cont input{
+	width: 100%;
+	margin-top: 0.1rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	height: 0.68rem;
+	text-indent: 0.2rem;
+	color: #595757;
+	font-size: 0.28rem;
+}
+.spa_name{
+	margin-top: 0.5rem;
+}
+.spa_phone,.spa_address{
+	margin-top: 0.6rem;
+}
+.spa_address textarea{
+	width: 100%;
+	font-size: 0.28rem;
+	margin-top: 0.1rem;
+	padding: 0.2rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	height: 1.28rem;
+	color: #595757;
+	font-size: 0.24rem;
+}
+.spa_btn{
+	width: 100%;
+	height: 0.8rem;
+	margin-top: 1.2rem;
+	background: #30a5dd;
+	border: none;
+	color: #ffffff;
+	font-size: 0.32rem;
+}
+@media only screen  and (max-width: 1024px) {
+	.shopf_l{
+		line-height: 49px;
+	}
+	.shopf_l span{
+		font-size: 18px;
+	}
+	.shopf_l span:first-child{
+		margin-left: 10px;
+	}
+	.shop_buy{
+		margin-left: 10px;
+	}
+	.sf_exc{
+		font-size: 18px;
+		width: 110px;
+		line-height: 49px;
+		height: 49px;
+	}
+}

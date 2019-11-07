@@ -22,6 +22,11 @@
 </head>
 <body>
     <div id="app">
+        <div class="left" >
+            @component('layouts.left')
+                
+            @endcomponent
+        </div>
         <main class="py-4">
             @yield('content')
         </main>

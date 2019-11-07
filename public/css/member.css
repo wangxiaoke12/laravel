@@ -1,0 +1,381 @@
+.pe_right{
+	width: 0.42rem;
+	height: 0.42rem;
+	vertical-align: middle;
+	position: absolute;
+	right: 0.24rem;
+	top: 0.22rem;
+}
+.banner{
+	background: url(../img/mem_banner.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 3rem;
+	position: relative;
+}
+.mem_xt{
+	position: absolute;
+	right: 0.4rem;
+	top: 0.34rem;
+}
+.mem_xt img{
+	width: 0.28rem;
+	height: 0.4rem;
+}
+.mem_xt i {
+    display: block;
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #e10e05;
+    position: absolute;
+    right: -0.14rem;
+    top: -0.06rem;
+}
+.content .vip_box{
+	display: inline-block;
+	height: 0.4rem;
+	width: 0.4rem;
+	margin-top: 0.02rem;
+	margin-left: 0.1rem;
+	background: url(../img/vip.png);
+	background-size: cover;
+}
+.portrait{
+	width: 1.61rem;
+	height: 1.61rem;
+	margin-left: 0.7rem;
+	margin-top: 0.6rem;
+	border-radius: 50%;
+}
+.introduce{
+	padding-left: 0.3rem;
+	color: #ffffff;
+	overflow: hidden;
+	margin-top: 0.6rem;
+}
+.t{
+	margin-top: 0.15rem;
+}
+.name{
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+}
+.vip{
+	width: 0.24rem;
+	height: 0.19rem;
+	margin-top: 0.06rem;
+	margin-left: 0.1rem;
+	line-height: 0.3rem;
+}
+.z{
+	margin-top: 0.2rem;
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+}
+.introduce .b{
+	display: block;
+	width: 1.72rem;
+	height: 0.46rem;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.46rem;
+	margin-top: 0.3rem;
+	background: #098ac8;
+	color: #ffffff;
+	border-radius: 3px;
+}
+.mem_fans{
+	margin-top: 0.2rem;
+	background: #ffffff;
+	text-align: center;
+}
+.mem_fans li{
+	width: 25%;
+	margin-top: 0.24rem;
+	height: 1.08rem;
+}
+.mf_l{
+	border-bottom: 2px solid #37d99e;
+}
+.mf_m{
+	border-bottom: 2px solid #f8b551;
+}
+.mf_r{
+	border-bottom: 2px solid #6ed0f5;
+}
+.mf_q{
+	border-bottom: 2px solid #e3d823;
+}
+.mf_top{
+	display: block;
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	color: #595757;
+}
+.mf_qd{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin: 0 auto;
+	position: relative;
+	top: -0.04rem;
+}
+.mf_btm{
+	display: block;
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	margin-top: 0.2rem;
+	color: #bababa;
+}
+.mem_banner{
+	height: auto;
+	margin-top: 0.2rem;
+}
+.mem_cont{
+	padding: 0 0.3rem;
+	padding-bottom: 0.4rem;
+	background: #ffffff;
+	margin: 0.2rem 0;
+}
+.mem_cont li{
+	width: 33.33%;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.mem_cont img{
+	width: 1rem;
+	height: 1rem;
+}
+.mem_cont p{
+	display: block;
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+	margin-top: 0.2rem;
+}
+.mem_cont i{
+	display: inline-block;
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #e10e05;
+	position: relative;
+	left: 0.05rem;
+	top: -0.16rem;
+}
+.log_out{
+	width: 100%;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	margin: 0.2rem 0 0.6rem 0;
+	text-align: center;
+	background: #ffffff;
+	border: none;
+}
+/*销售页面*/
+.sales_type{
+	padding: 0.3rem 0.24rem;
+	background: #ffffff;
+}
+.mem_more {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.sales_type .tab{
+	width: 9rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+.sales_type .tab li{
+	display: inline-block;
+	margin: 0 0.24rem;
+}
+.sales_type a{
+	width: 100%;
+	padding-bottom: 0.1rem;
+	display: inline-block;
+	position: relative;
+}
+.sales_xg{
+	width: 0.35rem;
+	height: 0.32rem;
+}
+.sales_xyh{
+	width: 0.43rem;
+	height: 0.32rem;
+}
+.sales_js,.sales_mj,.sales_qt{
+	width: 0.32rem;
+	height: 0.32rem;
+}
+.sales_list img{
+	margin-right: 0.1rem;
+}
+.sales_list span{
+	font-size: 0.32rem;
+	line-height: 0.32rem;
+}
+.active{
+	color: #30a5dd;
+}
+.box{
+	display: none;
+}
+.sales_ul{
+	width: 100%;
+}
+.pe_wz {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+}
+.hd_l {
+    width: 2.4rem;
+    height: 1.35rem;
+    border-radius: 5px;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+}
+.wz_cont {
+    height: 100%;
+}
+.wz_tit {
+    font-size: 0.32rem;
+}
+.wz_tit{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.sc_al {
+    width: 4.42rem;
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0;
+}
+.sc_btm {
+    font-size: 0.28rem;
+    line-height: 0.28rem;
+    color: #a09f9f;
+}
+.sc_hdt {
+    margin-left: 0.1rem;
+}
+.hdbtn_no {
+    width: 1.02rem;
+    height: 0.42rem;
+    font-size: 0.28rem;
+    border: none;
+    border-radius: 0.05rem;
+    color: #ffffff;
+    background: #30A5DD;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.1rem;
+}
+.hdbtn_old {
+    width: 1.02rem;
+    height: 0.42rem;
+    font-size: 0.24rem;
+    border: none;
+    border-radius: 0.05rem;
+    color: #ffffff;
+    background: #d5d5d5;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.1rem;
+}
+.more_hd{
+	width: 100%;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+.more_hd a{
+	display: inline-block;
+	width: 1.8rem;
+	height: 0.48rem;
+	font-size: 0.28rem;
+	line-height: 0.48rem;
+	color: #30A5DD;
+	border: 1px solid #30A5DD;
+	border-radius: 5px;
+	padding: 0;
+}
+.sales_table{
+	padding: 0.3rem 0.24rem 0.3rem 0.24rem;
+	margin-top: 0.3rem;
+	background: #f5f5f5;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #d5d4d4;
+	box-shadow: 0px 3px 3px #d5d4d4;" /*下边阴影*/ 
+}
+.sales_table table{
+	width: 100%;
+}
+.sales_table th{
+	line-height: 0.32rem;
+	border: none;
+	text-align: center;
+}
+.sales_table th img{
+	display: inline-block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.sales_table th span{
+	display: inline-block;
+	font-size: 0.36rem;
+	
+}
+.sales_table tr{
+	border-bottom: 1px solid #d4d4d4;
+}
+.sales_table tr:first-child{
+	border: none;
+}
+.sales_table td{
+	height: 0.72rem;
+	line-height: 0.72rem;
+	border: 0;
+	text-align: center;
+}
+.sales_table .td_l{
+	text-align: left;
+}
+.sales_table td img{
+	display: inline-block;
+	width: 0.24rem;
+	height: 0.24rem;
+	vertical-align: middle;
+	margin-top: -0.08rem;
+	margin-left:0.28rem;
+}
+.sales_table td span{
+	display: inline-block;
+	font-size: 0.32rem;
+	margin-left: 0.15rem;
+}
+.img_box{
+	position: relative;
+	width: 100%;
+}
+.sales_bg{
+	width: 100%;
+}
+.sales_qr{
+	width: 1.7rem;
+	height: 1.7rem;
+	margin-left: -0.85rem;
+	position: absolute;
+	left: 50%;
+	bottom: 0.9rem;
+}
+@media only screen  and (max-width: 1024px) {
+	.pe_right{
+		width: 21px;
+		height: 21px;
+		top: 11px;
+		right: 12px;
+	}
+}
